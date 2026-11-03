@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio Template</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500|Raleway:500,600">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="mobile">
+    <div class="container mobile__inner">
+      <img class="mobile__phone" src="img/phone.png" alt="Phone in hand">
+      <div class="mobile__text">
+        <h2>Excellent for Mobile Devices.</h2>
+        <p>Qisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius claritas. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
+        <ul class="checklist">
+          <li>Nam liber tempor cum soluta nobis eleifend option;</li>
+          <li>Option congue nihil imperdiet doming id quod mazim placerat facer;</li>
+          <li>Eodem modo typi, qui nunc nobis videntur parum futurum;</li>
+          <li>Investigationes demonstraverunt lectores</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="counters">
+    <div class="counters__inner">
+      <div class="counter"><i class="fa fa-user-o"></i><b>3587</b><span>Satisfied clients</span></div>
+      <div class="counter"><i class="fa fa-coffee"></i><b>207</b><span>Cups of coffee</span></div>
+      <div class="counter"><i class="fa fa-comment-o"></i><b>2500</b><span>Blog posts</span></div>
+      <div class="counter"><i class="fa fa-heart-o"></i><b>873</b><span>Likes</span></div>
+      <div class="counter"><i class="fa fa-bell-o"></i><b>900</b><span>We launched</span></div>
+    </div>
+  </section>
+  <section class="posts">
+    <h2>Recent Posts.</h2>
+    <p class="posts__lead">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+    <div class="posts__grid">
+      <article class="card">
+        <div class="card__img" style="background-image:url(img/post1.jpg)"><div class="date"><b>30</b>Sep.</div></div>
+        <div class="card__body">
+          <h3>Lorem ipsum dolor sit amet</h3>
+          <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+          <a href="#">Read More <i class="fa fa-caret-right"></i></a>
+        </div>
+      </article>
+      <article class="card card--dark">
+        <div class="card__img" style="background-image:url(img/post2.jpg)"><div class="date"><b>30</b>Sep.</div></div>
+        <div class="card__body">
+          <h3>Lorem ipsum dolor sit amet</h3>
+          <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+          <a href="#">Read More <i class="fa fa-caret-right"></i></a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card__img" style="background-image:url(img/post3.jpg)"><div class="date"><b>30</b>Sep.</div></div>
+        <div class="card__body">
+          <h3>Lorem ipsum dolor sit amet</h3>
+          <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+          <a href="#">Read More <i class="fa fa-caret-right"></i></a>
+        </div>
+      </article>
+    </div>
+    <div class="posts__nav">
+      <a href="#"><i class="fa fa-angle-left"></i></a>
+      <a href="#"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </section>
+  <section class="logos">
+    <div class="logos__inner">
+      <img src="img/logo1.png" alt="The Barber">
+      <img src="img/logo2.png" alt="Delicious Products">
+      <img src="img/logo3.png" alt="Designers">
+      <img src="img/logo4.png" alt="Cafe Royal Roasters">
+    </div>
+  </section>
+</body>
+</html>
